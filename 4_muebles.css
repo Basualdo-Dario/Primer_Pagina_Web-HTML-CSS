@@ -151,13 +151,13 @@ nav a:hover{
 
 @media (max-width:950px)
 {
-    .placa_silla{
+    .silla{
         display: block;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 100px;
     }
-    .placa_silla1{
+    .silla1{
         display: block;
         margin-left: auto;
         margin-right: auto;
