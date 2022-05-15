@@ -1,0 +1,171 @@
+
+*{
+    background-color: black;
+    color: white;
+}
+.body{
+
+    margin: 0;
+    font-family: sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: black;
+    padding: 10px,40px;
+}
+.logo{
+    display:flex;
+    align-items: center;
+    padding: 15px,0px;
+}
+.logo-img{
+
+    height: 200px;
+    margin-right: 15px;
+}
+nav{
+    padding-bottom: 15px;
+}
+nav a{
+    padding-left: 10px;
+}
+nav a:hover{
+    color: blue;
+}
+
+
+.main{
+
+    display:inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.celular{
+    display:inline-block;
+    width: 300px;
+    height: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+
+}
+.link_celular{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    border: 5px solid blue;
+    border-radius: 50px;
+    padding: 05px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0px 0px 50px 0px blue;
+
+
+
+}
+.imagen_celular{
+    width: 45%;
+    border-radius: 50px;
+    box-shadow: 0px 0px  100px 0px yellow;
+
+}
+.title_celular{
+    width: 100%;
+    font-size:20px;
+   
+   
+}
+.text_celular{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+.link_celular:hover{
+    border-color: orange;
+  
+    
+ 
+}
+
+.celular1{
+    display:inline-block;
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.link_celular1{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    border: 5px solid blue;
+    border-radius: 50px;
+    padding: 05px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0px 0px 50px 0px blue;
+
+
+
+}
+.imagen_celular1{
+    width: 45%;
+    border-radius: 50px;
+    box-shadow: 0px 0px  100px 0px yellow;
+
+}
+.title_celular1{
+    width: 100%;
+    font-size:20px;
+   
+   
+}
+.text_celular1{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+.link_celular1:hover{
+    border-color: orange;
+   
+ 
+}
+
+
+@media (max-width:950px)
+{
+    .placa_celular{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+    .placa_celular1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+
+}
+
+
+
+
